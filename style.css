@@ -12,26 +12,30 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+    
+
 
 .pata{
-    width: 35px;
+    width: 40px;
 
 }
 
 .content-logo{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     color: white;
     font-family: "Roboto Serife", sans-serif;
-    width: 12vw;
+    width: 10vw;
+    margin-left: 70px;
 }
 
 .redes-sociais{
     display: flex;
     justify-content: space-around;
-    width: 12vw;
+    width: 10vw;
     align-items: center;
+    margin-right: 70px;
 }
 
 .box-whatsapp{
