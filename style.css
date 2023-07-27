@@ -7,36 +7,35 @@
 header{
     background-color: #252525;
     height: 69px;
-    width: 100%;
-}
-
-.content-header{
-    width: 90%;
-    margin: 0 auto;
     display: flex;
-    align-items: center;
-    height: 69px;
+    width: 100%;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .pata{
     width: 35px;
-    margin-right: 6px;
 
 }
 
 .content-logo{
     display: flex;
     align-items: center;
+    justify-content: center;
     color: white;
     font-family: "Roboto Serife", sans-serif;
+    width: 12vw;
 }
 
 .redes-sociais{
     display: flex;
-    justify-content: space-between;
-    width: 150px;
+    justify-content: space-around;
+    width: 12vw;
+    align-items: center;
+}
+
+.box-whatsapp{
+    display: none;
 }
 
 .content{
@@ -238,27 +237,34 @@ a{
     
     header{
         height: 12vh;
-        width: 100%;
         position: fixed;
+        align-items: center;
     }
 
-    .logo-instagram{
+    .redes-sociais{
         display: none;
     }
 
-    .logo-youtube{
-        display: none;
+    .box-whatsapp{
+        display: flex;
+        margin-bottom: 30px;
+        width: 20vw;
     }
+
 
     .pata{
         width: 55px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        
     }
 
     .content-logo{
         font-size: 17px;
-        margin-top: 30px;
+        width: 45vw;
+        justify-content: space-around;
+    }
+
+    .redes-sociais{
+        width: 20vw;
     }
 
     .logo-whatsapp{
@@ -268,7 +274,8 @@ a{
 
     .content{
         background-image: url(./assets/dogconemobile.png);
-        background-size: 100% 100%;
+        background-size: cover;
+        background-position: center;
     }
 
     .primeiro-subtitulo{
@@ -284,7 +291,7 @@ a{
     .content-dogjuba{
         background-image: url(./assets/dogjubamobile.png);
         background-position: center;
-        background-size: 75vh;
+        background-size: cover;
         
     }
 
@@ -321,7 +328,8 @@ a{
 
     .content-dogcurioso{
         background-image: url(./assets/dogcuriosomobile.png);
-        background-size: 100% 100%;
+        background-size: cover;
+        background-position: center;
     }
 
     .box-dogcurioso{
