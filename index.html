@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Doguinho</title>
+    <title>Fantastika</title>
 </head>
 <body>
     <header>
@@ -23,9 +23,9 @@
                 <h2>Fantastika</h2>
             </div>
             <div class="redes-sociais">
-                <a href=""><img src="./assets/instagram.svg" alt="logo instagram"></a>
-                <a href=""><img src="./assets/youtube.svg" alt="logo youtube"></a>
-                <a href=""><img src="./assets/whatsapp.svg" alt="logo whatsapp"></a>
+                <a href=""><img class="logo-instagram" src="./assets/instagram.svg" alt="logo instagram"></a>
+                <a href=""><img class="logo-youtube" src="./assets/youtube.svg" alt="logo youtube"></a>
+                <a href=""><img class="logo-whatsapp" src="./assets/whatsapp.svg" alt="logo whatsapp"></a>
             </div>
         </div>
     </header> 
@@ -53,15 +53,28 @@
         </section>
         <section class="content-apoio">
             <div class="box-apoio">
-                <p>apoio:</p>
+                <p class="paragrafo-apoio">apoio:</p>
+                <figure class="box-patrocinio">
                 <img class="havaianas" src="./assets/havaianas.png" alt="Havainas logo">
                 <img class="americanas" src="./assets/americanas.png" alt="Americanas logo">
+                </figure>
             </div>
         </section>
     </main>
     <footer>
         <nav class="content-contatos">
-          <section>
+            <section class="container-mobile">
+                <div class="mobile-logo">
+                    <img class="patinha-mobile" src="./assets/pata.svg" alt="pata de animal">
+                    <h2>Fantastika</h2>
+                </div>
+                <div class="mobile-contatos">
+                    <img class="mobile-instagram" src="./assets/instagram.svg" alt="logo instagram">
+                    <img class="mobile-youtube" src="./assets/youtube.svg" alt="logo youtube">
+                    <img class="mobile-whatsapp" src="./assets/whatsapp.svg" alt="logo whatsapp">
+                </div>
+            </section>
+          <section class="container-atendimento">
             <h2 class="subtitulo-contatos">Atendimento</h2>
             <ul>
                 <li><a href="#">Chat Virtual</a></li>
@@ -70,16 +83,16 @@
                 <li><a href="#">Email</a></li>
             </ul>
           </section>
-          <section>
+          <section class="container-sobre">
             <h2 class="subtitulo-contatos">Sobre</h2>
             <ul>
                 <li><a href="#">Nosso Trabalho</a></li>
-                <li><a href="#">Infraetrutura</a></li>
+                <li><a href="#">Infraestrutura</a></li>
                 <li><a href="#">Nossas unidades</a></li>
                 <li><a href="#">Especialistas</a></li>
             </ul>
           </section>
-          <section>
+          <section class="container-unidades">
             <h2 class="subtitulo-contatos">Unidades</h2>
             <ul>
                 <li><a href="#">Clínica RJ</a></li>
